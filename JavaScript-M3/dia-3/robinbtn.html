@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generador de botones</title>
+  </head>
+  <body>
+    <h1>Generador de botones</h1>
+    <button id="button">Crear nuevo boton</button>
+    <div id="contenedor"></div>
+    <script>
+      button = document.getElementById("button");
+      container = document.getElementById("contenedor");
+      counter = 1;
+      button.addEventListener("click", function () {
+        counter += 1;
+        nuevo_botoncito = `
+                <button id="button">soy un nuevo boton  ${counter}</button>
+             `;
+        container.innerHTML += nuevo_botoncito;
+      });
+    </script>
+  </body>
+</html>
