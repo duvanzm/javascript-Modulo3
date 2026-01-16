@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -20,7 +20,7 @@
           href="#"
         >
           <img src="./img/logo/CarsCrud-removebg 1.png" alt="Logo" />
-          <img src="./img/logo/Logo.png" alt="logo" />
+          <img src="./img/logo/Logo.png" alt="logo" class="d-md-block d-none" />
         </a>
         <img
           src="./img/logo/Profil & Notification.png"
@@ -126,59 +126,9 @@
     <!-- Main -->
     <section class="mt-5">
       <div class="container">
-        <div class="row g-4">
-          <h6>Popular Car</h6>
-          <div class="col-md-3">
-            <div class="card">
-              <div class="card-body">
-                <h5>Koenigsegg</h5>
-                <p>Sport</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card shadow-sm rounded-4 p-3" style="width: 22rem">
-              <!-- Header -->
-              <div class="d-flex justify-content-between align-items-start">
-                <div>
-                  <h5 class="mb-0 fw-bold">Koenigsegg</h5>
-                  <small class="text-muted">Sport</small>
-                </div>
-                <span class="text-danger fs-4">❤</span>
-              </div>
-
-              <!-- Imagen -->
-              <div class="text-center my-3">
-                <img src="./img/img/Car (1).png" class="img-fluid" alt="Car" />
-              </div>
-
-              <!-- Info -->
-              <div class="d-flex justify-content-between text-muted small mb-3">
-                <span>⛽ 90L</span>
-                <span>⚙ Manual</span>
-                <span>👥 2 People</span>
-              </div>
-
-              <!-- Footer -->
-              <div class="d-flex justify-content-between align-items-center">
-                <div>
-                  <span class="fw-bold fs-5">$99.00</span>
-                  <small class="text-muted">/day</small>
-                </div>
-                <a href="#" class="btn btn-primary rounded-3">Rent Now</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card">
-              <div class="card-body">Card 3</div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card">
-              <div class="card-body">Card 4</div>
-            </div>
-          </div>
+        <h6>Popular Car</h6>
+        <div class="row g-4 list-cards">
+          <!-- Cards -->
         </div>
       </div>
     </section>
@@ -235,5 +185,6 @@
         </div>
       </div>
     </section>
+    <script src="./script.js"></script>
   </body>
 </html>
